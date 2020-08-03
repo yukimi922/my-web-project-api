@@ -1,0 +1,2 @@
+[2020-07-29T08:38:49.954] [WARN] http - ::1 - - "OPTIONS /user/login HTTP/1.1" 200 4 "http://localhost:8081/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+[2020-07-29T08:38:49.969] [WARN] http - ::1 - - "POST /user/login HTTP/1.1" 200 65 "http://localhost:8081/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"

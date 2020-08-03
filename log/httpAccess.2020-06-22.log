@@ -1,0 +1,6 @@
+[2020-06-22T17:00:14.420] [WARN] http - ::1 - - "GET /allUser HTTP/1.1" 404 146 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-22T17:02:17.243] [WARN] http - ::1 - - "GET /user/allUser HTTP/1.1" 200 67 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-22T17:02:17.423] [WARN] http - ::1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3001/user/allUser" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-22T17:04:30.283] [WARN] http - ::1 - - "GET /user/allUser HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-22T17:18:32.266] [WARN] http - ::1 - - "GET /user/allUser HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[2020-06-22T17:26:25.923] [WARN] http - ::1 - - "GET /user/allUser HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
