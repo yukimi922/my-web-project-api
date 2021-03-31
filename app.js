@@ -11,7 +11,7 @@ httpLogger = require('./utils/log').httpLogger;
 app.use(httpLogger);
 
 app.use(bodyParser.urlencoded({
-  extended:true
+  extended: true
 }));
 app.use(bodyParser.json());
 
@@ -32,10 +32,10 @@ app.use((req, res, next) => {
 
 
 //--------------------------------挂载路由-----------------------------------
-app.use('/user',userRouter);
+app.use('/user', userRouter);
 
 
 
-app.listen(3002,() => {
+app.listen(3002, () => {
   console.log("3002 is ready.......");
 })

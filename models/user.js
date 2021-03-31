@@ -5,7 +5,8 @@ const userSchema = new Schema({
   name:{
     type: String,
     require: true,
-    trim: true
+    trim: true,
+    unique: true
   },
   pass: {
     type: String,
